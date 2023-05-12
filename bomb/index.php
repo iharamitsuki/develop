@@ -44,7 +44,7 @@ if (isset($_POST['reset'])) {
     <?php endif; ?>
     <?php if (isset($reset)) : ?>
         <form method="post">
-            <input type="submit" name="reset" value="リセット">
+            <input type="submit" name="reset" value="もう一度">
         </form>
     <?php else : ?>
         <p>ボタンをクリックしてください。</p>
